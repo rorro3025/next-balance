@@ -1,6 +1,7 @@
 export interface BalanceI {
+    uuid?:string
     title: string,
-    partial?:
+    partial:
         {description: string, value: number}[]
     ,
     total: number
